@@ -4,12 +4,12 @@
 #include "utils.h"
 using namespace std;
 
-// указатель на дин. массив (структур) и его длина
+// pointer to dynamic array (of structures) and his length
 class Array {
 private:
-	int _length; // длина массива
+	int _length; // array length
 public:
-	shared_ptr<Circle> p; // ук. на массив структур
+	shared_ptr<Circle> p; // pointer to array of structures
 
 	Array() {
 		this->p = NULL;
