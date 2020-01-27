@@ -2,8 +2,9 @@
 #include <exception>
 #include "utils.h"
 
-// описывает окружность
-// + проверка на правильный ввод свойств
+/*
+	describes a circle
+*/
 struct Circle {
 private:
 	double _r;
